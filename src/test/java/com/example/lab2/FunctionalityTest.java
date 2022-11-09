@@ -15,4 +15,25 @@ public class FunctionalityTest {
 
 
     }
+
+    @Test
+    public void test2(){
+        int x = 3;
+        int y = 23;
+
+        assertEquals(26, x+y);
+
+
+    }
+
+    @Test
+    public void test3(){
+        int x = 4;
+        int y = 23;
+
+        assertEquals(27, x+y);
+
+
+    }
+
 }
